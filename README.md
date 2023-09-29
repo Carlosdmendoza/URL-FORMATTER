@@ -6,5 +6,8 @@ How does this work?
 4. Paste it on the field above.
 5. Press "Format URL".
 6. You can use the New URL to reference your custom CSS in your BT Events.
-6. You can relate Custom CSS to Events, Event Settings or Event Groups.
-7.Check our documentation for more information.
+6. You can relate Custom CSS to Events, Event Settings, or Event Groups.
+7. Check Blackthorn documentation for more information.
+
+
+Preview URL: https://carlosdmendoza.github.io/URL-FORMATTER/
