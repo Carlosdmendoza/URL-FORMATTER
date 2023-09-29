@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL FORMATTER</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    
+    <div class="mainContainer">
+    <h1>URL Formatter</h1>
+    <input type="text" id="urlInput" placeholder="Enter the Google Drive Public URL">
+    <button onclick="formatURL()" id="formatUrlButton">
+        Format URL <i class="fas fa-arrow-circle-right"></i> 
+    </button>
+    <div class="Subtitle"> 
+        <text>NEW URL</text>
+    </div>
+    <div id="formattedUrl"> Your URL will be displayed here </div>
+    <button id="copyButton" onclick="copyFormattedURL()" style="display: none;">
+        <i class="fas fa-copy"></i> COPY URL
+    </button>
+    <div id="infoBox" class="info-box" style="display: none;"></div>
+
+    </div>
+
+    <div class="instructions">
+        <h3>How does this work?</h3>
+        <ul> 1. Save your custom CSS file on Google Drive.</ul>
+        <ul> 2. Make sure your CSS file is shareable with anyone with the link.</ul>
+        <ul> 3. Copy the Shareable Link.</ul>
+        <ul> 4. Paste it on the field above.</ul>
+        <ul> 5. Press "Format URL".</ul>
+        <ul> 6. You can use the New URL to reference your custom CSS in your BT Events.</ul>
+        <ul> 6. You can relate Custom CSS to Events, Event Settings or Event Groups.</ul>
+        <ul> 7.Check our <a href="https://docs.blackthorn.io/docs/custom-css-injection" target="_blank">documentation</a> for more information. </ul>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

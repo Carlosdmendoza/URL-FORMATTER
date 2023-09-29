@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #efefef;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#urlInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+h1 {
+    color: #245ea3;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+
+button#formatUrlButton {
+    font-family: 'Poppins';
+    font-size: 20px;
+    height: 48px;
+    margin: inherit;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #245ea3;
+    border-radius: 8px;
+    border-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+input#urlInput {
+    font-family: cursive;
+    font-size: 17px;
+    border-radius: 9px;
+    height: 25px;
+    border-color: #245ea3;
+    margin-bottom: 5%;
+}
+
+button#copyButton {
+    margin-top: 15px;
+    background: #245ea3;
+    color: white;
+    height: 48px;
+    border-radius: 9px;
+    border-color: white;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+
+}
+
+#formattedUrl {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: cursive;
+    border-style: dashed;
+    border-width: 1px;
+    padding: 12px;
+    WIDTH: FIT-CONTENT;
+    margin: auto;
+    border-color: 245ea3;
+}
+
+.Subtitle {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: 600;
+    color: #245ea3;
+}
+
+
+div#infoBox {
+    /* margin-top: 10px; */
+   /* background: white;
+    color: green;*/
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+    font-family: Poppins;
+    border-style: solid;
+    margin-top: 5px;
+   
+}
+
+.error {
+    background-color: #ffcccc;
+    color: #ff0000;
+}
+
+.success {
+    background-color: #ccffcc;
+    color: #00aa00;
+}
+
+.instructions {
+    display: table;
+    text-align: left;
+    /*position: absolute;
+    bottom: 15px;*/
+    border-color: #245ea3;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.instructions h3 {
+    margin-left: 10%;
+}
