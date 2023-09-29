@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #efefef;
     text-align: center;
     margin-top: 50px;
@@ -34,7 +34,7 @@ button#formatUrlButton {
 }
 
 input#urlInput {
-    font-family: cursive;
+    font-family: 'Poppins';
     font-size: 17px;
     border-radius: 9px;
     height: 25px;
@@ -59,7 +59,7 @@ button#copyButton {
 #formattedUrl {
     font-size: 18px;
     margin-top: 20px;
-    font-family: cursive;
+    font-family: 'Poppins';
     border-style: dashed;
     border-width: 1px;
     padding: 12px;
@@ -78,9 +78,6 @@ button#copyButton {
 
 
 div#infoBox {
-    /* margin-top: 10px; */
-   /* background: white;
-    color: green;*/
     width: fit-content;
     border-radius: 5px;
     margin-left: auto;
@@ -108,8 +105,6 @@ div#infoBox {
 .instructions {
     display: table;
     text-align: left;
-    /*position: absolute;
-    bottom: 15px;*/
     border-color: #245ea3;
     border-style: solid;
     border-radius: 10px;
@@ -117,6 +112,7 @@ div#infoBox {
     margin-top: 5%;
     margin-left:auto;
     margin-right: auto;
+    font-family: 'Poppins';
 }
 
 .instructions h3 {
