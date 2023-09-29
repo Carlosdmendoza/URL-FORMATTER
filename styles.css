@@ -129,3 +129,7 @@ header.headerSpace {
     display: block;
     width: 100%;
 }
+
+header.headerSpace img {
+    height: 40px;
+}
