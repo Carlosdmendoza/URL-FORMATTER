@@ -122,3 +122,10 @@ div#infoBox {
 .instructions h3 {
     margin-left: 10%;
 }
+
+header.headerSpace {
+    background-color: transparent;
+    position: relative;
+    display: block;
+    width: 100%;
+}
