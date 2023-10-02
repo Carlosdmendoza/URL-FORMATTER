@@ -19,7 +19,7 @@ function formatURL() {
     // Format the URL
     let newUrl = urlInput.replace("file/d/", "uc?export=view&id=");
     newUrl = newUrl.replace("/view?usp=sharing", "");
-    newUrl = newURL.replace("/view?usp=drivesdk","");
+    newUrl = newUrl.replace("/view?usp=drivesdk","");
 
     // Display the formatted URL
     formattedUrl.textContent = newUrl;
